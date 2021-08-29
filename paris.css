@@ -1,0 +1,58 @@
+body{
+    font-family:"adobe-clean",sans-serif ;
+}
+div#hey{
+    color: red;
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 0px 5px 20px ;
+    
+}
+div#one{
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+form{
+    font-size: 25px;
+    font-weight: 900;
+    padding:20px 0px 175px 0px;
+}
+div.yes{
+    border: 2px solid red;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    width: 260px;
+    height: 400px;
+    padding: 10px 0px 5px 40px;
+    box-shadow: 7px 7px  rgb(209, 208, 208);
+}
+div.sec{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 40px 4px;
+
+}
+/* @media screen and (min-width:767px) and (max-width:1024px) {
+    div.sec{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        margin-top: 95px;
+    }
+} */
+div.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 50px 50px 50px;
+}
+div.ttp{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+

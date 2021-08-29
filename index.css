@@ -1,0 +1,27 @@
+body{
+    font-family: "adobe-clean", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+div.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 40px 4px;
+}
+.task{
+    font-size: 40px;
+    padding: 20px;
+}
+div.todo{
+    color: #865439;
+    border:1px solid red;
+    border-radius: 10px;
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px  rgb(209, 208, 208);
+
+}
